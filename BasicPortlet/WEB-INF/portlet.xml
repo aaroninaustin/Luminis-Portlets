@@ -1,0 +1,23 @@
+<portlet-app
+xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+version="2.0"
+xmlns:xsi="http://www.w3.org.2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+<portlet>
+<description>Basic Hello World Portlet</description>
+<portlet-name>HelloPortlet</portlet-name>
+<display-name>My Hello World Portlet</display-name>
+<portlet-class>edu.stedwards.luminis.portlets.BasicPortlet</portlet-class>
+<supports>
+	<mime-type>text/html</mime-type>
+	<portlet-mode>VIEW</portlet-mode>
+</supports>
+<supported-locals>en</supported-locals>
+<portlet-info>
+<title>Hello World y'all!</title>
+<short-title>Hello</short-title>
+<keywords>helloworld</keywords>
+</portlet-info>
+
+</portlet>
+</portlet-app>

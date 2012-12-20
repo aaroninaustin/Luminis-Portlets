@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portlet-app
+    xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd"
+    version="1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd
+                        http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd">
+
+    <portlet>
+        <description>R2-D2 (phonetically spelled Artoo-Detoo, and called "R2" or "Artoo" for short) is a robot character in the Star Wars universe. An astromech droid (referred to in the novel as a 'thermocapsulary dehousing assister'), R2-D2 is a major character in all six Star Wars films. Along with his protocol droid companion C-3PO, he joins or supports Anakin Skywalker, Luke Skywalker, Princess Leia, and Obi-Wan Kenobi in various points in the saga. R2-D2 was played by Kenny Baker. Along with Anakin Skywalker (Darth Vader), Obi-Wan Kenobi, and C-3PO, he is one of only four characters to appear in all six Star Wars films.</description>
+        <portlet-name>r2d2</portlet-name>
+        <display-name>r2d2 Portlet</display-name>
+
+        <portlet-class>edu.stedwards.luminis.portlets.r2d2.MyPortlet</portlet-class>
+
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+        </supports>
+
+        <supported-locale>en</supported-locale>
+
+        <portlet-info>
+            <title>R2D2</title>
+            <short-title>C3p0 to R2D2, I am well versed in many languages and customs.</short-title>
+            <keywords>c3p0,r2d2,star wars,galaxy,dataabse</keywords>
+        </portlet-info>
+    </portlet>
+</portlet-app>
